@@ -1,9 +1,8 @@
-# 🚀 CNN-from-Scratch: A First-Principles System in C# 🚀
-
-🧩 The Thesis
+# CNN-from-Scratch: A First-Principles System in C# 
+## The Thesis
 This is a ground-up implementation of a Convolutional Neural Network designed to bypass the abstraction "black boxes" of modern frameworks. By utilizing C# and .NET, this project maps the calculus of backpropagation directly onto a strongly-typed, managed memory environment, exploring the intersection of Systems Architecture and Differentiable Programming.
 
-## ✨ Overview
+## Overview
 This project presents a C# implementation of a Convolutional Neural Network (CNN) built entirely from the ground up! 🤯 My primary goal was educational: to help developers and learners dive deep into the inner workings of CNNs with a clear, modular, and extensible codebase.
 
 It includes a complete training pipeline for the CIFAR-10 dataset, supporting both a simple architecture and a VGG11-inspired design, alongside options for SGD and Adam optimizers. You'll find core CNN components like convolutional layers, batch normalization, ReLU activation, max pooling, dropout, and dense layers, all crafted for readability and detailed documentation. It's truly a valuable resource for anyone studying deep learning fundamentals! 💡
@@ -29,7 +28,7 @@ Here's an example of some images from the CIFAR-10 dataset:
 ![image](https://github.com/user-attachments/assets/04441e26-8c5e-4605-bac5-8fff2c8c56e4)
 
 
-## 🌟 Core Primitives
+## Core Primitives
 Custom CNN Implementation:
 
 Core layers (Convolution, BatchNorm, ReLU, MaxPool, Dropout, Dense) built from scratch.
@@ -66,10 +65,10 @@ Robust Error Handling:
 
 Thorough checks for data loading and model configuration. ✅
 
-## 🎯 Purpose
+## Purpose
 This project was developed to foster a deeper understanding of CNNs by implementing them without relying on high-level frameworks like TensorFlow or PyTorch. It's designed as an educational tool for students, developers, and enthusiasts eager to learn how CNNs function "under the hood" – including forward/backward passes, intricate gradient computation, and various optimization techniques. 🧠
 
-## 🚀 Getting Started
+## Getting Started
 Prerequisites
 .NET SDK (version 6.0 or higher recommended)
 
