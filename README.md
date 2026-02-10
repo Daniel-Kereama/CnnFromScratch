@@ -1,4 +1,8 @@
-# 🚀 Image Classification CNN from Scratch 🚀
+# 🚀 CNN-from-Scratch: A First-Principles System in C# 🚀
+
+🧩 The Thesis
+This is a ground-up implementation of a Convolutional Neural Network designed to bypass the abstraction "black boxes" of modern frameworks. By utilizing C# and .NET, this project maps the calculus of backpropagation directly onto a strongly-typed, managed memory environment, exploring the intersection of Systems Architecture and Differentiable Programming.
+
 ## ✨ Overview
 This project presents a C# implementation of a Convolutional Neural Network (CNN) built entirely from the ground up! 🤯 My primary goal was educational: to help developers and learners dive deep into the inner workings of CNNs with a clear, modular, and extensible codebase.
 
@@ -25,7 +29,7 @@ Here's an example of some images from the CIFAR-10 dataset:
 ![image](https://github.com/user-attachments/assets/04441e26-8c5e-4605-bac5-8fff2c8c56e4)
 
 
-## 🌟 Features
+## 🌟 Core Primitives
 Custom CNN Implementation:
 
 Core layers (Convolution, BatchNorm, ReLU, MaxPool, Dropout, Dense) built from scratch.
